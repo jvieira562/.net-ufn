@@ -1,0 +1,14 @@
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\bin\Debug\net7.0\JogoDaVelha.exe
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\bin\Debug\net7.0\JogoDaVelha.deps.json
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\bin\Debug\net7.0\JogoDaVelha.runtimeconfig.json
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\bin\Debug\net7.0\JogoDaVelha.dll
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\bin\Debug\net7.0\JogoDaVelha.pdb
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\obj\Debug\net7.0\JogoDaVelha.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\obj\Debug\net7.0\JogoDaVelha.AssemblyInfoInputs.cache
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\obj\Debug\net7.0\JogoDaVelha.AssemblyInfo.cs
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\obj\Debug\net7.0\JogoDaVelha.csproj.CoreCompileInputs.cache
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\obj\Debug\net7.0\JogoDaVelha.dll
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\obj\Debug\net7.0\refint\JogoDaVelha.dll
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\obj\Debug\net7.0\JogoDaVelha.pdb
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\obj\Debug\net7.0\JogoDaVelha.genruntimeconfig.cache
+C:\dev\5 - Academia .NET\Joga da Velha\solution\JogoDaVelha\obj\Debug\net7.0\ref\JogoDaVelha.dll
