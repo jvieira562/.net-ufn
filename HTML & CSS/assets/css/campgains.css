@@ -1,0 +1,95 @@
+header {
+    height: fit-content!important;
+    background: var(--secondary-background)!important;
+}
+
+.campgains {
+    display: flex;
+    flex-direction: column;  
+    padding-bottom: 3rem;
+}
+.campgains > h2 {
+    color: var(--black-80);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 43px;
+    padding-bottom: 2rem;
+}
+.campgains > p {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 16px;
+    color: var(--black-40);
+    line-height: 22px;
+    padding-bottom: 3rem;
+}
+.campgains .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5rem;
+    column-gap: 2rem;
+}
+.campgains .services .carta {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 9px;
+    padding: 1rem;
+}
+.campgains .services .carta:hover {
+    box-shadow: 4px 4px 58px 0px rgba(0, 0, 0, 0.12);
+}
+.campgains .services .carta  img {
+    border-radius: 9px;
+    height: 290px;
+    align-self: center;
+ }
+ .campgains .services .carta .actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .campgains .services .carta .actions h3 {
+    color: var(--black-100);
+    font-family: Roboto;
+    font-size: 19px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+ }
+ .campgains .services .carta .actions i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-100);
+    height: 35px;
+    width: 35px;
+    background-color: var(--primary-12);
+    border-radius: 100%;
+ }
+ .campgains .services .carta .actions i:hover {
+    color: var(--primary-12);
+    background: var(--primary-100);
+    cursor: pointer;
+ }
+
+ @media (max-width: 1400px) {
+    .campgains .services {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+     }
+     .carta {
+        width: 200px;
+     }
+ }
+ @media (max-width: 960px) {
+    .campgains .services {
+        grid-template-columns: 1fr 1fr;
+     }
+ }
+ @media (max-width: 768px) {
+    .campgains .services {
+        grid-template-columns: 1fr;
+     }
+ }

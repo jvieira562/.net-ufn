@@ -14,40 +14,49 @@
 </head>
 
 <body>
+    <div class="menu-mobile-box" id="menuMobileBox">
+        <i class="fa-solid fa-xl fa-close btn-close" id="closeMenu"></i>
+        <div class="logo-moba">
+            <a href="/">
+                <img src="assets/icons/logo.svg" alt="Logo da empresa">
+            </a>
+        </div>
+        <div class="links-moba">
+            <ul>
+                <li>
+                    <a href="/">
+                        HOME
+                    </a>
+                </li>
+                <li>
+                    <a href="/about.html">
+                        ABOUT US
+                    </a>
+                </li>
+                <li>
+                    <a href="/campgains.html">
+                        CAMPGAINS
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <header class="header container">
         <nav class="navbar">
             <div class="logo">
-                <img src="assets/icons/logo.svg" alt="Logo da empresa">
+                <a href="/">
+                    <img src="assets/icons/logo.svg" alt="Logo da empresa">
+                </a>
             </div>
             <div class="links">
                 <ul>
                     <li>
-                        <a href="">
-                            RETAIL
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            SME
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            CORPORATE
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
+                        <a href="/about.html">
                             ABOUT US
                         </a>
                     </li>
                     <li>
-                        <a href="">
-                            COVID 19
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
+                        <a href="/campgains.html">
                             CAMPGAINS
                         </a>
                     </li>
@@ -62,7 +71,7 @@
                     </svg>
                 </button>
                 <button class="iservice">iSERVICE</button>
-                <div class="menu-mobile">
+                <div class="menu-mobile" id="openMenu">
                     <i class="fa-solid fa-lg fa-bars"></i>
                 </div>
             </div>
@@ -82,7 +91,7 @@
                         <img src="assets/icons/call.svg" alt="Telefone">
                         <p>16519</p>
                     </a>
-                </div>| 
+                </div>|
                 <div class="sociallink"><a href=""><img src="assets/icons/facebook.svg" alt="Facebook"></a></div>
                 <div class="sociallink"><a href=""><img src="assets/icons/youtube.svg" alt="YouTube"></a></div>
                 <div class="sociallink"><a href=""><img src="assets/icons/linkedin.svg" alt="Likedin"></a></div>
@@ -108,11 +117,12 @@
             </div> -->
         </section>
     </header>
-    <main class="main container">
-        <div class="valores">
+    <main class="main">
+        <div class="valores container">
             <div class="title">
                 <h1>Creating Extraordinary Customer Experience</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum eget morbi<br> dignissim eu pharetra consequat montes, sagittis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum eget morbi<br> dignissim eu
+                    pharetra consequat montes, sagittis.</p>
             </div>
             <div class="cards">
                 <div class="card">
@@ -190,7 +200,7 @@
                 </div>
             </div>
         </div>
-        <div class="business-partners">
+        <div class="business-partners container">
             <div class="title">
                 <p>BUSINESS PARTNERS</p>
             </div>
@@ -207,17 +217,22 @@
                 <div class="ball" style="height: 3px; width: 3px;"></div>
             </div>
         </div>
-        <div class="planta">
+        <div class="planta container">
             <div class="img">
                 <img src="assets/img/Image.svg" alt="">
             </div>
             <div class="summary">
                 <h1>IPDC AT A GLANCE</h1>
-                <p>IPDC Finance Limited (previously known as "Industrial Promotion and Development Company of Bangladesh Limited") is the first private sector financial institution of the country established in 1981 by a distinguished group of shareholders namely International Finance Corporation (IFC), USA, German Investment and Development Company (DEG), Germany, The Aga Khan Fund for Economic Development (AKFED), Switzerland, Commonwealth Development Corporation (CDC), UK and the Government of Bangladesh</p>
+                <p>IPDC Finance Limited (previously known as "Industrial Promotion and Development Company of Bangladesh
+                    Limited") is the first private sector financial institution of the country established in 1981 by a
+                    distinguished group of shareholders namely International Finance Corporation (IFC), USA, German
+                    Investment and Development Company (DEG), Germany, The Aga Khan Fund for Economic Development
+                    (AKFED), Switzerland, Commonwealth Development Corporation (CDC), UK and the Government of
+                    Bangladesh</p>
                 <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
-        <div class="newsletter">
+        <div class="newsletter container">
             <h2>Newsletter</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ac quis aliquam arcu lacus.</p>
             <form action="" class="news">
@@ -225,7 +240,7 @@
                 <button class="button">INSCREVA-SE</button>
             </form>
         </div>
-        <footer class="footer">
+        <footer class="footer container">
             <div class="column-1">
                 <h3>About the Company</h3>
                 <p>Learn To Love Growth<br>And Change And You Will<br>Be A Success. Microsoft<br>Patch </p>
@@ -272,9 +287,7 @@
             </div>
         </footer>
     </main>
-    <footer class="footer">
-
-    </footer>
     <script src="assets/js/index.js"></script>
 </body>
+
 </html>
